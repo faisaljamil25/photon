@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Roboto", sans-serif;
+}
+header {
+  min-height: 30vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+header h2 {
+  padding: 2rem;
+}
+#logo {
+  text-decoration: none;
+  color: rgb(74, 68, 131);
+  font-size: 2.4rem;
+  letter-spacing: 5px;
+}
+.search-form {
+  display: flex;
+}
+.search-input {
+  font-size: 1.2rem;
+  padding: 0.5rem;
+  width: 100%;
+  border: 2px solid rgb(74, 68, 131);
+}
+.search-input:focus,
+.submit-btn:focus {
+  outline: none;
+}
+.submit-btn {
+  background: rgb(74, 68, 131);
+  border: none;
+  padding: 0.5rem;
+  font-size: 1rem;
+  color: white;
+  cursor: pointer;
+}
